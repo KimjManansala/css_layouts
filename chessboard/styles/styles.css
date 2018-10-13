@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    flex-flow: row wrap;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #38261d;
+    background-color: rgba(219, 215, 215, 0.507);
+    width: 1000px;
+    height: 1000px;
+    margin: 50px auto;
+}
+
+.whiteSpace{
+    background-color: white;
+    width: 12.5%;
+    height: 12.5%;
+}
+
+.blackSpace{
+    background-color: black;
+    width: 12.5%;
+    height: 12.5%;
+}
+
+
+
