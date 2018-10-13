@@ -1,23 +1,24 @@
-body{
+
+.wrapper{
     display:flex;
-    flex-flow: row wrap;
-    border-style: solid;
+    flex-flow: row-reverse wrap;
     border-width: 15px;
     border-color: #38261d;
     background-color: rgba(219, 215, 215, 0.507);
-    width: 1000px;
-    height: 1000px;
+    width: 500px;
+    height: 500px;
     margin: 50px auto;
+    border-style: solid;
 }
 
-.whiteSpace{
-    background-color: white;
+.white-space{
+    background-color: #e9d0b1;
     width: 12.5%;
     height: 12.5%;
 }
 
-.blackSpace{
-    background-color: black;
+.black-space{
+    background-color: #2c1b10;
     width: 12.5%;
     height: 12.5%;
 }
