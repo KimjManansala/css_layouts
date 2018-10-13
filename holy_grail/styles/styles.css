@@ -1,0 +1,88 @@
+/* The whole body */
+body{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/* For the header and footer */
+.vertical{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.vertical header h1, .vertical footer h1{
+    background-color: #83c9f9;
+    height: 20%;
+    border-style: solid;
+    border-width: 10px;
+    text-align: center;
+    font-size: 110px;
+    margin: 0px;
+}
+
+/* Middle section */
+.middle{
+    display: flex;
+    background-color: #cc99cc;
+    border-width: 10px;
+    width:100%;
+    height: 60%;
+}
+/*Middle section Menu*/
+#left{ 
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    justify-content: flex-start;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-width: 10px;
+    width: 25%;
+    background-color: #cc99cc;
+}
+#left h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+}
+#left h2{
+    text-align: left;
+    font-size: 40px;
+    margin: 0px;
+}
+
+/* Middle content section */
+main{
+    width:50%;
+    background-color: #f8cbcc;
+}
+main > h1{
+    font-size: 70px;
+    text-align: center;
+    margin: 0px;
+}
+main > p{
+    font-size: 22px;
+    margin: 0px 0px 30% 0px;
+
+}
+
+/* Middle AD Content */
+#right{
+    border-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-width: 10px;
+    width: 25%;
+}
+#right > h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 10px 0px;
+}
+/* 960
+560
+200 */
