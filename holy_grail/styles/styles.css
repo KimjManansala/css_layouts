@@ -10,7 +10,9 @@ body{
 .vertical{
     display: flex;
     flex-direction: column;
-
+    height: 700px;
+    width: 800px;
+    margin: auto;
     
 }
 .vertical header h1, .vertical footer h6{
@@ -105,6 +107,7 @@ main > p{
         border-style: solid;
     }
     #right{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 }
