@@ -18,6 +18,27 @@ body *{
     border-width: 10px;
     margin: 100px auto;
 }
+.leftHalf{
+    display: flex;
+    flex: 50;
+    border-right-style: solid;
+    border-width: 2.5px;
+}
+.rightHalf{
+    display: flex;
+    flex: 50;
+    border-left-style: solid;
+    border-width: 2.5px;
+}
+.border{
+    /* width: 5px; */
+    width: 5px;
+    background-color: #404040;
+}
+.borderHorizontal{
+    height: 5px;
+    background-color: #404040;    
+}
 /* Colors */
 /* Red:  #ed3833 */
 /* Yellow:  #fae34c */
@@ -29,54 +50,48 @@ body *{
     /* For the column it will add up to 10 */
     flex: 1;
     display: flex;
-    background-color: white;
     border-width: 2.5px;
 }
+/* left half */
 .a1{
-    flex:2;
-    border-style: solid;
-    border-top-style: none;
-    border-width: 2.5px;
-    border-left-style: none;
+    flex: 30;
+    border-bottom-style: solid;
+    border-width: 2.5px
+
 }
 .a2{
-    flex: 4;
-    border-style: solid;
-    border-top-style: none;
-    border-width: 2.5px;
+    flex: 40;
+    border-bottom-style: solid;
+    border-width: 2.5px
 }
 .a3{
-    flex: 3;
-    border-style: solid;
-    border-top-style: none;
-    border-width: 2.5px;
+    flex: 35;
     background-color: #fae34c;
+    border-bottom-style: solid;
+    border-width: 2.5px
 }
+/* right half */
 .a4{
-    flex: 3;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-width: 2.5px;
+    flex: 30;
     background-color: #2c80be;
 }
 .a5{
-    flex: 1;
-    border-style: solid;
-    border-top-style: none;
-    border-width: 2.5px;
+    flex: 30;
+    display: flex;
+    border-bottom-style: solid;
+    border-width: 2.5px
+}
+.a5-1{
+    flex: 14.5;
     background-color: #fae34c;
 }
 .a6{
-    flex: 1;
-    border-style: solid;
-    border-top-style: none;
-    border-width: 2.5px;
-    background-color: black;
+    flex: 14.5;
+background-color: black;
 }
 .a7{
-    flex: 4;
-    border-style: solid;
-    border-top-style: none;
+    flex: 41;
+    border-bottom-style: solid;
     border-width: 2.5px;
 }
 
@@ -85,44 +100,76 @@ body *{
 .row2{
     flex: 2;
     display: flex;
-    background-color: white;
 }
+/* Inside of row 2 */
+/* Left side */
 .b1{
-    flex: 1;
-    border-style: solid;
-    border-left-style: none;
+    flex: 19.5;
+    border-top-style: solid;
     border-width: 2.5px;
+    border-bottom-style: solid;
 }
 .b2{
-    flex: 4;
-    border-style: solid;
-    border-bottom-style: none;
+    flex: 50.5;
+    background-color:#ed3833;
+    border-top-style: solid;
     border-width: 2.5px;
-    background-color: #ed3833;
+
 }
 .b3{
-    flex: 3;
-    border-style: solid;
-    border-width: 2.5px;
+    flex: 35;
     background-color: #fae34c;
-}
-.b4{
-    flex: 3;
-    border-style: solid;
+    border-top-style: solid;
     border-width: 2.5px;
+    border-bottom-style: solid;
+
+}
+
+/* Right side */
+.b4{
+    flex: 30;
+    display: flex;
+    flex-direction: column;
+}
+.b4-1{
+    flex: 1;
+    background-color: #2c80be;
+}
+.b4-2{
+    flex: 1;
+    background-color: #ed3833;
 }
 .b5{
-    flex: 2;
-    border-style: solid;
+    flex: 30;
+    display: flex;
+    flex-direction: column;
+    border-top-style: solid;
     border-width: 2.5px;
+
 }
+.b5-1{
+    flex: 1;
+    background-color: #fae34c;
+}
+
+.b5-2{
+    flex: 1;
+    background-color: #000000;
+    
+}
+
+
 .b6{
-    flex: 2;
-    border-style: solid;
+    flex: 25;
+    border-top-style: solid;
     border-width: 2.5px;
+    border-bottom-style: solid;
 }
 .b7{
-    flex: 1;
+    flex: 15;
+    border-top-style: solid;
+    border-width: 2.5px;
+    background-color: #fae34c;
 }
 
 
@@ -132,24 +179,97 @@ body *{
 .row3{
     flex: 2;
     display: flex;
-    background-color: white;
+
+}
+/* LeftHalf */
+
+.c1{
+    flex: 19.5;
+    border-top-style: solid;
+    border-width: 2.5px;
+}
+.c2{
+    flex: 50.5;
+    background-color: #ed3833;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.c3{
+    flex: 35;
+    display:flex;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.c3-1{
+    flex: 1;
+
+
+}
+.c3-2{
+    flex: 1;
+}
+/* Right Half */
+.c4{
+    flex: 30;
+    display: flex;
+    flex-direction: column;
+}
+.c4-1{
+    flex: 1;
+    background-color: #ed3833;
+}
+.c4-2{
+    flex: 1;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+
+.c5{
+    flex: 30;
+    display: flex;
+    flex-direction: column;
+}
+.c5-1{
+    flex: 1;
+}
+.c5-2{
+    flex: 1;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.c6{
+    flex: 25;
+    background-color: #000000;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.c7{
+    flex: 15;
+    display: flex;
+    flex-direction: column;
+}
+.c7-1{
+    flex: 1;
+    background-color: #fae34c;
+}
+.c7-2{
+    flex: 1
 }
 /* Row 4 */
 .row4{
     flex: 2;
     display: flex;
-    background-color: white;
 }
 /* Row 5 */
 .row5{
     flex:2;
     display: flex;
-    background-color: white;
 }
 .row6{
     flex:1;
     display: flex;
-    background-color: white;
 }
 
 
