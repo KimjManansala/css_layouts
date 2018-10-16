@@ -262,16 +262,216 @@ background-color: black;
     flex: 2;
     display: flex;
 }
+.d1{
+    flex: 19.5;
+    display: flex;
+    flex-direction: column;
+}
+.d1-1{
+    flex: 1;
+}
+.d1-2{
+    flex: 1;
+    background-color: #fae34c;
+}
+.d2{
+    flex: 50.5;
+    display: flex;
+}
+.d2-1{
+    flex: 1;
+    background-color: #000000;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.d2-2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.d2-2-1{
+    flex: 1;
+    border-top-style: solid;
+    border-width: 2.5px;
+}
+.d2-2-2{
+    flex: 1;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+
+.d3{
+    flex: 35;
+    display: flex;
+    flex-direction: column;
+}
+.d3-1{
+    flex:1;
+    border-top-style: solid;
+    border-width: 2.5px;
+}
+.d3-2{
+    flex: 1;
+    background-color: #2c80be;
+}
+
+/* Right Half */
+.d4{
+    flex: 32;
+    display: flex;
+}
+.d4-1{
+    flex: 1;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.d4-2{
+    flex: 1;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.d5{
+    flex: 59;
+    background-color: #2c80be;
+    border-top-style: solid;
+    border-width: 2.5px;
+}
+.d6{
+    flex: 15.75;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+
 /* Row 5 */
 .row5{
     flex:2;
     display: flex;
 }
+.e1{
+    flex: 19.5;
+    background-color: #fae34c;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.e2{
+    flex: 50.5;
+    display: flex;
+}
+.e2-1{
+    flex: 1;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.e2-2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.e2-2-1{
+    flex: 1;
+    background-color: #000000;
+}
+.e2-2-2{
+    flex: 1;
+    display: flex;
+}
+.e2-2-2-3{
+    flex: 1;
+    background-color: #fae34c;
+}
+.e2-2-2-4{
+    flex: 1;
+}
+.e3{
+    flex: 35;
+    display: flex;
+    flex-direction: column;
+}
+.e3-top{
+    flex: 1;
+    background-color: #2c80be;
+}
+.e3-bottom{
+    flex: 1;
+    background-color: #ed3833;
+}
+.e4{
+    flex: 32;
+    background-color: #fae34c;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.e5{
+    flex: 59;
+    background-color: #2c80be;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+.e6{
+    flex: 15.75;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2.5px;
+}
+
+
+
+/* Row 6 */
 .row6{
     flex:1;
     display: flex;
 }
+.f1{
+    flex: 43.25;
+    border-top-style: solid;
+    border-width: 2.5px;
+}
+.f2{
+    flex: 23.25;
+    display: flex;
+}
+.f2-1{
+    flex: 51;
+    background-color: #fae34c;
+}
+.f2-2{
+    flex: 49;
+}
+.f3{
+    flex: 33.5;
+    background-color: #ed3833;
+}
 
+/* Right side */
+.f4{
+    flex: 30;
+    display: flex;
+}
+.f4-1{
+    flex: 1;
+    border-top-style: solid;
+    border-width: 2.5px;
+}
+.f4-2{
+    flex: 1;
+    background-color: #000000;
+    border-top-style: solid;
+    border-width: 2.5px;
+}
+.f5{
+    flex: 45;
+    border-top-style: solid;
+    border-width: 2.5px;
+}
+.f6{
+    flex: 25;
+    border-top-style: solid;
+    border-width: 2.5px;
+}
 
 
 
